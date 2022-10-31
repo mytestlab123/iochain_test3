@@ -1,0 +1,13 @@
+syntax = "proto3";
+package mytestlab123.iochain_test3.iochaintest3;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/mytestlab123/iochain_test3/x/iochaintest3/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message

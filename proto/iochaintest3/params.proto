@@ -1,0 +1,12 @@
+syntax = "proto3";
+package mytestlab123.iochain_test3.iochaintest3;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/mytestlab123/iochain_test3/x/iochaintest3/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
